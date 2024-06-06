@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top_part{
+    position: relative;
+    height: 90px;
+    width: 100%;
+}
+
+.aboveHeader{
+    color: #ffffff;
+    background: linear-gradient(90deg, #000000, #ff1500);
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.aboveHeader p{
+    text-align: center;
+    /* padding-top: 9px; */
+}
+
+.categories{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    /* position: fixed; */
+    top: 40px;
+}
+
+.sub_category{
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.sub_category input{
+    width: 500px;
+    height: 25px;
+}
+
+.section1{
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: larger;
+    color: #ffffff;
+    padding: 6% 25%;
+}
+
+.section1 header{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* padding: 10px; */
+}
+
+.section2{
+    background-color: azure;
+    padding: 1% 5%
+    
+}
+
+.section2_div1{
+    background-color: rgba(0,0,0,0.5);
+    margin: 10px;
+    padding: 1%;
+}
+
+.trending_shoes{
+    height: 160px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.4);
+    color: #ffffff;
+    margin-right: 5px;
+    border: 2px solid rgba(0,0,0,0.4);
+}
+
+.trending_shoes img {
+    height: 130px;
+    width: 116px;
+}
+
+.section3{
+    background: linear-gradient(to left, #000000, #434343);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+.section3_div1{
+    background: linear-gradient(to left, #eb5757, #000000); 
+    height: 80vh;
+    width: 90vw;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+}
+
+.section3_content{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40%;
+    font-size: larger;
+    /* border: 2px solid yellow; */
+
+}
+
+.section3 p{
+    margin-top: 30px;
+}
+
+.section3_image{
+    height: 300px;
+    width: 300px;
+    /* right: 10%;
+    top: 20%;
+    border-radius: 50%; */
+   
+    /* border: 2px solid purple; */
+}
+.section3_image img{
+    height: 300px;
+    width: 300px;
+    right: 10%;
+    top: 20%;
+     box-shadow: 8px 8px 8px white;
+     position: absolute;
+     right: 100px;
+     top: 50px;
+    border-radius: 50%;
+}
+
+
+.section3_image :hover{
+    height: 350px;
+    width: 350px;
+}
