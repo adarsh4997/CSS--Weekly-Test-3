@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #top_part{
-    position: relative;
+    /* position: relative;
     height: 90px;
-    width: 100%;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+
 }
 
 .aboveHeader{
@@ -16,11 +23,15 @@
     height: 40px;
     width: 100%;
     font-weight: bold;
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .aboveHeader p{
     text-align: center;
-    /* padding-top: 9px; */
+    margin: 10px;
 }
 
 .categories{
@@ -31,8 +42,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    /* position: fixed; */
-    top: 40px;
+    position: sticky;
+    top: 0;
 }
 
 .sub_category{
